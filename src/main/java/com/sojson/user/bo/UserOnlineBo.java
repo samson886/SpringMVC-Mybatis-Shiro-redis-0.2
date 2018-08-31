@@ -11,8 +11,10 @@ import com.sojson.common.model.UUser;
  */
 public class UserOnlineBo extends UUser implements Serializable {
 
+
 	private static final long serialVersionUID = 1L;
-	
+
+
 	//Session Id
 	private String sessionId;
 	//Session Host
